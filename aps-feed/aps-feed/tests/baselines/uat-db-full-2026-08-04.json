@@ -1,0 +1,1147 @@
+{
+  "timestamp": "2026-08-04 22:25:38",
+  "env": "UAT (haid-oee-uat, aps_uat)",
+  "total_files": 20,
+  "ok": 20,
+  "empty": 0,
+  "exceptions": 0,
+  "results": [
+    {
+      "file": "V1未返回结果.txt",
+      "status": "OK",
+      "elapsed": 0.37,
+      "total_products": 8,
+      "scheduled": 8,
+      "unscheduled": 0,
+      "overall_utilization": 34.46,
+      "total_score": 541150,
+      "priority_score": 98400,
+      "changeover_score": 135,
+      "protein_grade_bonus": 5,
+      "particle_size_bonus": 6,
+      "time_window_bonus": 8,
+      "electricity_cost": 136.58,
+      "production_balance_score": -800,
+      "changeover_time_penalty": 45,
+      "weights": {
+        "material_priority": 0,
+        "line_priority": 123,
+        "time_window": 0,
+        "protein_grade": 76875,
+        "particle_size": 0,
+        "changeover_time": 1025,
+        "production_balance": 100,
+        "electricity_cost": 0
+      },
+      "line_counts": {
+        "1525CX01": 0,
+        "1525CX02": 3,
+        "1525CX03": 4,
+        "1525CX04": 1
+      },
+      "expected": {
+        "scheduled": 8,
+        "unscheduled": 0,
+        "line_counts": {
+          "1525CX01": 0,
+          "1525CX02": 3,
+          "1525CX03": 4,
+          "1525CX04": 1
+        },
+        "cluster_checks": null
+      }
+    },
+    {
+      "file": "V2未返回结果.txt",
+      "status": "OK",
+      "elapsed": 1.42,
+      "total_products": 19,
+      "scheduled": 19,
+      "unscheduled": 0,
+      "overall_utilization": 36.22,
+      "total_score": 40673,
+      "priority_score": 42000,
+      "changeover_score": 550,
+      "protein_grade_bonus": 17,
+      "particle_size_bonus": 19,
+      "time_window_bonus": 19,
+      "electricity_cost": 77.36,
+      "production_balance_score": -32,
+      "changeover_time_penalty": 35,
+      "weights": {
+        "material_priority": 0,
+        "line_priority": 25,
+        "time_window": 0,
+        "protein_grade": 0,
+        "particle_size": 0,
+        "changeover_time": 12,
+        "production_balance": 6,
+        "electricity_cost": 1
+      },
+      "line_counts": {
+        "1625CX01": 8,
+        "1625CX02": 11
+      },
+      "expected": {
+        "scheduled": 19,
+        "unscheduled": 0,
+        "line_counts": {
+          "1625CX01": 8,
+          "1625CX02": 11
+        },
+        "cluster_checks": null
+      }
+    },
+    {
+      "file": "1130-4.30.txt",
+      "status": "OK",
+      "elapsed": 2.9,
+      "total_products": 22,
+      "scheduled": 22,
+      "unscheduled": 0,
+      "overall_utilization": 50.97,
+      "total_score": 16945,
+      "priority_score": 67270,
+      "changeover_score": 975,
+      "protein_grade_bonus": 16,
+      "particle_size_bonus": 22,
+      "time_window_bonus": 22,
+      "electricity_cost": 3772.24,
+      "production_balance_score": -786,
+      "changeover_time_penalty": 60,
+      "weights": {
+        "material_priority": 0,
+        "line_priority": 31,
+        "time_window": 0,
+        "protein_grade": 0,
+        "particle_size": 0,
+        "changeover_time": 29,
+        "production_balance": 100,
+        "electricity_cost": 0
+      },
+      "line_counts": {
+        "1130CX01": 2,
+        "1130CX02": 2,
+        "1130CX04": 1,
+        "1130CX05": 9,
+        "1130CX06": 1,
+        "1130CX07": 7
+      },
+      "expected": {
+        "scheduled": 22,
+        "unscheduled": 0,
+        "line_counts": {
+          "1130CX01": 2,
+          "1130CX02": 2,
+          "1130CX04": 1,
+          "1130CX05": 9,
+          "1130CX06": 1,
+          "1130CX07": 7
+        },
+        "cluster_checks": null
+      }
+    },
+    {
+      "file": "1170-0720.txt",
+      "status": "OK",
+      "elapsed": 1.95,
+      "total_products": 20,
+      "scheduled": 20,
+      "unscheduled": 0,
+      "overall_utilization": 40.32,
+      "total_score": 63250,
+      "priority_score": 23520,
+      "changeover_score": 855,
+      "protein_grade_bonus": 14,
+      "particle_size_bonus": 18,
+      "time_window_bonus": 20,
+      "electricity_cost": 176.27,
+      "production_balance_score": -580,
+      "changeover_time_penalty": 60,
+      "weights": {
+        "material_priority": 0,
+        "line_priority": 12,
+        "time_window": 0,
+        "protein_grade": 20,
+        "particle_size": 10,
+        "changeover_time": 50,
+        "production_balance": 6,
+        "electricity_cost": 0
+      },
+      "line_counts": {
+        "1170CX01": 2,
+        "1170CX02": 3,
+        "1170CX03": 2,
+        "1170CX04": 2,
+        "1170CX05": 6,
+        "1170CX06": 5
+      },
+      "expected": {
+        "scheduled": 20,
+        "unscheduled": 0,
+        "line_counts": {
+          "1170CX01": 2,
+          "1170CX02": 3,
+          "1170CX03": 2,
+          "1170CX04": 2,
+          "1170CX05": 6,
+          "1170CX06": 5
+        },
+        "cluster_checks": null
+      }
+    },
+    {
+      "file": "1335排程0526.txt",
+      "status": "OK",
+      "elapsed": 0.92,
+      "total_products": 14,
+      "scheduled": 14,
+      "unscheduled": 0,
+      "overall_utilization": 41.8,
+      "total_score": -2037,
+      "priority_score": 17640,
+      "changeover_score": 465,
+      "protein_grade_bonus": 9,
+      "particle_size_bonus": 13,
+      "time_window_bonus": 14,
+      "electricity_cost": 7225.1,
+      "production_balance_score": -710,
+      "changeover_time_penalty": 60,
+      "weights": {
+        "material_priority": 0,
+        "line_priority": 14,
+        "time_window": 0,
+        "protein_grade": 0,
+        "particle_size": 466,
+        "changeover_time": 21,
+        "production_balance": 50,
+        "electricity_cost": 0
+      },
+      "line_counts": {
+        "1335CX01": 1,
+        "1335CX02": 9,
+        "1335CX03": 2,
+        "1335CX05": 1,
+        "1335CX06": 1
+      },
+      "expected": {
+        "scheduled": 14,
+        "unscheduled": 0,
+        "line_counts": {
+          "1335CX01": 1,
+          "1335CX02": 9,
+          "1335CX03": 2,
+          "1335CX05": 1,
+          "1335CX06": 1
+        },
+        "cluster_checks": null
+      }
+    },
+    {
+      "file": "14300707.json",
+      "status": "OK",
+      "elapsed": 2.55,
+      "total_products": 30,
+      "scheduled": 22,
+      "unscheduled": 8,
+      "overall_utilization": 73.38,
+      "total_score": 141133,
+      "priority_score": 25080,
+      "changeover_score": 1170,
+      "protein_grade_bonus": 14,
+      "particle_size_bonus": 22,
+      "time_window_bonus": 22,
+      "electricity_cost": 0.0,
+      "production_balance_score": -1337,
+      "changeover_time_penalty": 60,
+      "weights": {
+        "material_priority": 0,
+        "line_priority": 12,
+        "time_window": 0,
+        "protein_grade": 20,
+        "particle_size": 5,
+        "changeover_time": 100,
+        "production_balance": 1,
+        "electricity_cost": 0
+      },
+      "line_counts": {
+        "1430CX03": 2,
+        "1430CX04": 5,
+        "1430CX05": 3,
+        "1430CX07": 4,
+        "1430CX08": 2,
+        "1430CX09": 1,
+        "1430CX10": 2,
+        "1430CX11": 3
+      },
+      "expected": {
+        "scheduled": 22,
+        "unscheduled": 8,
+        "line_counts": {
+          "1430CX03": 2,
+          "1430CX04": 5,
+          "1430CX05": 3,
+          "1430CX07": 4,
+          "1430CX08": 2,
+          "1430CX09": 1,
+          "1430CX10": 2,
+          "1430CX11": 3
+        },
+        "cluster_checks": null
+      }
+    },
+    {
+      "file": "balance_test.json",
+      "status": "OK",
+      "elapsed": 0.31,
+      "total_products": 1,
+      "scheduled": 0,
+      "unscheduled": 1,
+      "overall_utilization": 0.0,
+      "total_score": 0,
+      "priority_score": 0,
+      "changeover_score": 0,
+      "protein_grade_bonus": 0,
+      "particle_size_bonus": 0,
+      "time_window_bonus": 0,
+      "electricity_cost": 0.0,
+      "production_balance_score": 0,
+      "changeover_time_penalty": 1,
+      "weights": {
+        "material_priority": 0,
+        "line_priority": 31,
+        "time_window": 0,
+        "protein_grade": 0,
+        "particle_size": 0,
+        "changeover_time": 29,
+        "production_balance": 100,
+        "electricity_cost": 0
+      },
+      "line_counts": {
+        "1130CX01": 0
+      },
+      "expected": {
+        "scheduled": 0,
+        "unscheduled": 1,
+        "line_counts": {
+          "1130CX01": 0
+        },
+        "cluster_checks": null
+      }
+    },
+    {
+      "file": "request.json",
+      "status": "OK",
+      "elapsed": 150.51,
+      "total_products": 30,
+      "scheduled": 30,
+      "unscheduled": 0,
+      "overall_utilization": 62.05,
+      "total_score": 3220000,
+      "priority_score": 2930000,
+      "changeover_score": 580,
+      "protein_grade_bonus": 24,
+      "particle_size_bonus": 30,
+      "time_window_bonus": 30,
+      "electricity_cost": 0.0,
+      "production_balance_score": 0,
+      "changeover_time_penalty": 50,
+      "weights": {
+        "material_priority": 0,
+        "line_priority": 1000,
+        "time_window": 0,
+        "protein_grade": 0,
+        "particle_size": 0,
+        "changeover_time": 500,
+        "production_balance": 0,
+        "electricity_cost": 0
+      },
+      "line_counts": {
+        "2270CX01": 5,
+        "2270CX02": 8,
+        "2270CX03": 6,
+        "2270CX04": 6,
+        "2270CX05": 2,
+        "2270CX06": 3
+      },
+      "expected": {
+        "scheduled": 30,
+        "unscheduled": 0,
+        "line_counts": {
+          "2270CX01": 5,
+          "2270CX02": 8,
+          "2270CX03": 6,
+          "2270CX04": 6,
+          "2270CX05": 2,
+          "2270CX06": 3
+        },
+        "cluster_checks": null
+      }
+    },
+    {
+      "file": "request03.json",
+      "status": "OK",
+      "elapsed": 2.48,
+      "total_products": 24,
+      "scheduled": 24,
+      "unscheduled": 0,
+      "overall_utilization": 49.08,
+      "total_score": 1967242,
+      "priority_score": 2360000,
+      "changeover_score": 490,
+      "protein_grade_bonus": 18,
+      "particle_size_bonus": 22,
+      "time_window_bonus": 24,
+      "electricity_cost": 3188.79,
+      "production_balance_score": 0,
+      "changeover_time_penalty": 50,
+      "weights": {
+        "material_priority": 0,
+        "line_priority": 1000,
+        "time_window": 0,
+        "protein_grade": 0,
+        "particle_size": 0,
+        "changeover_time": 500,
+        "production_balance": 0,
+        "electricity_cost": 2
+      },
+      "line_counts": {
+        "2270CX01": 5,
+        "2270CX02": 3,
+        "2270CX03": 5,
+        "2270CX04": 4,
+        "2270CX05": 2,
+        "2270CX06": 5
+      },
+      "expected": {
+        "scheduled": 24,
+        "unscheduled": 0,
+        "line_counts": {
+          "2270CX01": 5,
+          "2270CX02": 3,
+          "2270CX03": 5,
+          "2270CX04": 4,
+          "2270CX05": 2,
+          "2270CX06": 5
+        },
+        "cluster_checks": null
+      }
+    },
+    {
+      "file": "request04.json",
+      "status": "OK",
+      "elapsed": 0.48,
+      "total_products": 7,
+      "scheduled": 7,
+      "unscheduled": 0,
+      "overall_utilization": 9.74,
+      "total_score": 4025271587,
+      "priority_score": 4025000000,
+      "changeover_score": 120,
+      "protein_grade_bonus": 2,
+      "particle_size_bonus": 5,
+      "time_window_bonus": 7,
+      "electricity_cost": 344.13,
+      "production_balance_score": 0,
+      "changeover_time_penalty": 60,
+      "weights": {
+        "material_priority": 6250000,
+        "line_priority": 125000,
+        "time_window": 500,
+        "protein_grade": 0,
+        "particle_size": 500,
+        "changeover_time": 2500,
+        "production_balance": 0,
+        "electricity_cost": 1
+      },
+      "line_counts": {
+        "2010CX64": 2,
+        "2010CX80": 1,
+        "2010CX81": 0,
+        "2010CX83": 1,
+        "2010CX84": 2,
+        "2010CX85": 1
+      },
+      "expected": {
+        "scheduled": 7,
+        "unscheduled": 0,
+        "line_counts": {
+          "2010CX64": 2,
+          "2010CX80": 1,
+          "2010CX81": 0,
+          "2010CX83": 1,
+          "2010CX84": 2,
+          "2010CX85": 1
+        },
+        "cluster_checks": null
+      }
+    },
+    {
+      "file": "request05.json",
+      "status": "OK",
+      "elapsed": 11.47,
+      "total_products": 33,
+      "scheduled": 31,
+      "unscheduled": 2,
+      "overall_utilization": 74.69,
+      "total_score": 12981180,
+      "priority_score": 8167000,
+      "changeover_score": 1620,
+      "protein_grade_bonus": 22,
+      "particle_size_bonus": 30,
+      "time_window_bonus": 31,
+      "electricity_cost": 1877.55,
+      "production_balance_score": -542,
+      "changeover_time_penalty": 60,
+      "weights": {
+        "material_priority": 2500,
+        "line_priority": 400,
+        "time_window": 160000,
+        "protein_grade": 0,
+        "particle_size": 400,
+        "changeover_time": 500,
+        "production_balance": 400,
+        "electricity_cost": 4
+      },
+      "line_counts": {
+        "1430CX03": 2,
+        "1430CX04": 7,
+        "1430CX05": 7,
+        "1430CX06": 1,
+        "1430CX07": 5,
+        "1430CX08": 3,
+        "1430CX09": 2,
+        "1430CX10": 2,
+        "1430CX11": 2
+      },
+      "expected": {
+        "scheduled": 31,
+        "unscheduled": 2,
+        "line_counts": {
+          "1430CX03": 2,
+          "1430CX04": 7,
+          "1430CX05": 7,
+          "1430CX06": 1,
+          "1430CX07": 5,
+          "1430CX08": 3,
+          "1430CX09": 2,
+          "1430CX10": 2,
+          "1430CX11": 2
+        },
+        "cluster_checks": null
+      }
+    },
+    {
+      "file": "request2.json",
+      "status": "OK",
+      "elapsed": 0.58,
+      "total_products": 11,
+      "scheduled": 11,
+      "unscheduled": 0,
+      "overall_utilization": 19.81,
+      "total_score": -6152320,
+      "priority_score": 205000,
+      "changeover_score": 280,
+      "protein_grade_bonus": 4,
+      "particle_size_bonus": 10,
+      "time_window_bonus": 11,
+      "electricity_cost": 800.29,
+      "production_balance_score": 0,
+      "changeover_time_penalty": 80,
+      "weights": {
+        "material_priority": 100,
+        "line_priority": 100,
+        "time_window": 200,
+        "protein_grade": 0,
+        "particle_size": 80,
+        "changeover_time": 150,
+        "production_balance": 0,
+        "electricity_cost": 80
+      },
+      "line_counts": {
+        "1340CX01": 1,
+        "1340CX02": 1,
+        "1340CX03": 0,
+        "1340CX04": 2,
+        "1340CX05": 2,
+        "1340CX06": 2,
+        "1340CX07": 2,
+        "1340CX08": 1
+      },
+      "expected": {
+        "scheduled": 11,
+        "unscheduled": 0,
+        "line_counts": {
+          "1340CX01": 1,
+          "1340CX02": 1,
+          "1340CX03": 0,
+          "1340CX04": 2,
+          "1340CX05": 2,
+          "1340CX06": 2,
+          "1340CX07": 2,
+          "1340CX08": 1
+        },
+        "cluster_checks": null
+      }
+    },
+    {
+      "file": "uat_test_data.json",
+      "status": "OK",
+      "elapsed": 2.6,
+      "total_products": 23,
+      "scheduled": 21,
+      "unscheduled": 2,
+      "overall_utilization": 49.75,
+      "total_score": 8860,
+      "priority_score": 29550,
+      "changeover_score": 165,
+      "protein_grade_bonus": 14,
+      "particle_size_bonus": 18,
+      "time_window_bonus": 21,
+      "electricity_cost": 4438.75,
+      "production_balance_score": -230,
+      "changeover_time_penalty": 60,
+      "weights": {
+        "material_priority": 0,
+        "line_priority": 15,
+        "time_window": 0,
+        "protein_grade": 0,
+        "particle_size": 0,
+        "changeover_time": 14,
+        "production_balance": 100,
+        "electricity_cost": 0
+      },
+      "line_counts": {
+        "1130CX01": 2,
+        "1130CX02": 1,
+        "1130CX03": 4,
+        "1130CX04": 1,
+        "1130CX05": 6,
+        "1130CX06": 3,
+        "1130CX07": 4
+      },
+      "expected": {
+        "scheduled": 21,
+        "unscheduled": 2,
+        "line_counts": {
+          "1130CX01": 2,
+          "1130CX02": 1,
+          "1130CX03": 4,
+          "1130CX04": 1,
+          "1130CX05": 6,
+          "1130CX06": 3,
+          "1130CX07": 4
+        },
+        "cluster_checks": null
+      }
+    },
+    {
+      "file": "1130-2.txt",
+      "status": "OK",
+      "elapsed": 0.96,
+      "total_products": 23,
+      "scheduled": 23,
+      "unscheduled": 0,
+      "overall_utilization": 67.86,
+      "total_score": 111953,
+      "priority_score": 13500,
+      "changeover_score": 990,
+      "protein_grade_bonus": 16,
+      "particle_size_bonus": 19,
+      "time_window_bonus": 23,
+      "electricity_cost": 409.83,
+      "production_balance_score": -867,
+      "changeover_time_penalty": 60,
+      "weights": {
+        "material_priority": 0,
+        "line_priority": 6,
+        "time_window": 0,
+        "protein_grade": 20,
+        "particle_size": 0,
+        "changeover_time": 100,
+        "production_balance": 1,
+        "electricity_cost": 0
+      },
+      "line_counts": {
+        "1130CX01": 3,
+        "1130CX02": 2,
+        "1130CX03": 3,
+        "1130CX04": 1,
+        "1130CX05": 8,
+        "1130CX06": 4,
+        "1130CX07": 2
+      },
+      "expected": {
+        "scheduled": 23,
+        "unscheduled": 0,
+        "line_counts": {
+          "1130CX01": 3,
+          "1130CX02": 2,
+          "1130CX03": 3,
+          "1130CX04": 1,
+          "1130CX05": 8,
+          "1130CX06": 4,
+          "1130CX07": 2
+        },
+        "cluster_checks": null,
+        "zero_switch_analysis": {
+          "zero_pairs": 5,
+          "cluster_adj": 3,
+          "cluster_same_not_adj": 0,
+          "cluster_diff_line": 2
+        }
+      },
+      "zero_switch_analysis": {
+        "zero_pairs": 5,
+        "cluster_adj": 3,
+        "cluster_same_not_adj": 0,
+        "cluster_diff_line": 2
+      }
+    },
+    {
+      "file": "1130-3.txt",
+      "status": "OK",
+      "elapsed": 0.85,
+      "total_products": 23,
+      "scheduled": 23,
+      "unscheduled": 0,
+      "overall_utilization": 69.75,
+      "total_score": 108025,
+      "priority_score": 12660,
+      "changeover_score": 960,
+      "protein_grade_bonus": 14,
+      "particle_size_bonus": 21,
+      "time_window_bonus": 23,
+      "electricity_cost": 542.8,
+      "production_balance_score": -915,
+      "changeover_time_penalty": 60,
+      "weights": {
+        "material_priority": 0,
+        "line_priority": 6,
+        "time_window": 0,
+        "protein_grade": 20,
+        "particle_size": 0,
+        "changeover_time": 100,
+        "production_balance": 1,
+        "electricity_cost": 0
+      },
+      "line_counts": {
+        "1130CX01": 1,
+        "1130CX02": 2,
+        "1130CX03": 7,
+        "1130CX04": 2,
+        "1130CX05": 5,
+        "1130CX06": 3,
+        "1130CX07": 3
+      },
+      "expected": {
+        "scheduled": 23,
+        "unscheduled": 0,
+        "line_counts": {
+          "1130CX01": 1,
+          "1130CX02": 2,
+          "1130CX03": 7,
+          "1130CX04": 2,
+          "1130CX05": 5,
+          "1130CX06": 3,
+          "1130CX07": 3
+        },
+        "cluster_checks": null,
+        "zero_switch_analysis": {
+          "zero_pairs": 5,
+          "cluster_adj": 4,
+          "cluster_same_not_adj": 0,
+          "cluster_diff_line": 1
+        }
+      },
+      "zero_switch_analysis": {
+        "zero_pairs": 5,
+        "cluster_adj": 4,
+        "cluster_same_not_adj": 0,
+        "cluster_diff_line": 1
+      }
+    },
+    {
+      "file": "1170-0723.txt",
+      "status": "OK",
+      "elapsed": 1.48,
+      "total_products": 27,
+      "scheduled": 27,
+      "unscheduled": 0,
+      "overall_utilization": 35.78,
+      "total_score": 156450,
+      "priority_score": 31560,
+      "changeover_score": 1255,
+      "protein_grade_bonus": 21,
+      "particle_size_bonus": 26,
+      "time_window_bonus": 27,
+      "electricity_cost": 158.93,
+      "production_balance_score": -285,
+      "changeover_time_penalty": 60,
+      "weights": {
+        "material_priority": 0,
+        "line_priority": 12,
+        "time_window": 0,
+        "protein_grade": 40,
+        "particle_size": 10,
+        "changeover_time": 100,
+        "production_balance": 6,
+        "electricity_cost": 0
+      },
+      "line_counts": {
+        "1170CX01": 8,
+        "1170CX02": 2,
+        "1170CX03": 3,
+        "1170CX04": 1,
+        "1170CX05": 10,
+        "1170CX06": 3
+      },
+      "cluster_checks": [
+        {
+          "rids": [
+            "559681",
+            "559683",
+            "559697"
+          ],
+          "line": "1170CX05",
+          "same_line": true
+        },
+        {
+          "rids": [
+            "559684",
+            "559685",
+            "559700"
+          ],
+          "line": "1170CX06",
+          "same_line": true
+        },
+        {
+          "rids": [
+            "559686",
+            "559689"
+          ],
+          "line": "1170CX01",
+          "same_line": true
+        },
+        {
+          "rids": [
+            "559698",
+            "559703"
+          ],
+          "line": "1170CX01",
+          "same_line": true
+        }
+      ],
+      "expected": {
+        "scheduled": 27,
+        "unscheduled": 0,
+        "line_counts": {
+          "1170CX01": 8,
+          "1170CX02": 2,
+          "1170CX03": 3,
+          "1170CX04": 1,
+          "1170CX05": 10,
+          "1170CX06": 3
+        },
+        "cluster_checks": [
+          {
+            "rids": [
+              "559681",
+              "559683",
+              "559697"
+            ],
+            "line": "1170CX05",
+            "same_line": true
+          },
+          {
+            "rids": [
+              "559684",
+              "559685",
+              "559700"
+            ],
+            "line": "1170CX06",
+            "same_line": true
+          },
+          {
+            "rids": [
+              "559686",
+              "559689"
+            ],
+            "line": "1170CX01",
+            "same_line": true
+          },
+          {
+            "rids": [
+              "559698",
+              "559703"
+            ],
+            "line": "1170CX01",
+            "same_line": true
+          }
+        ],
+        "zero_switch_analysis": {
+          "zero_pairs": 9,
+          "cluster_adj": 7,
+          "cluster_same_not_adj": 2,
+          "cluster_diff_line": 0
+        }
+      },
+      "zero_switch_analysis": {
+        "zero_pairs": 9,
+        "cluster_adj": 7,
+        "cluster_same_not_adj": 2,
+        "cluster_diff_line": 0
+      }
+    },
+    {
+      "file": "1170-1.txt",
+      "status": "OK",
+      "elapsed": 1.8,
+      "total_products": 21,
+      "scheduled": 21,
+      "unscheduled": 0,
+      "overall_utilization": 33.88,
+      "total_score": 115264,
+      "priority_score": 24480,
+      "changeover_score": 935,
+      "protein_grade_bonus": 15,
+      "particle_size_bonus": 20,
+      "time_window_bonus": 21,
+      "electricity_cost": 135.07,
+      "production_balance_score": -586,
+      "changeover_time_penalty": 60,
+      "weights": {
+        "material_priority": 0,
+        "line_priority": 12,
+        "time_window": 0,
+        "protein_grade": 40,
+        "particle_size": 10,
+        "changeover_time": 100,
+        "production_balance": 6,
+        "electricity_cost": 0
+      },
+      "line_counts": {
+        "1170CX01": 5,
+        "1170CX02": 1,
+        "1170CX03": 3,
+        "1170CX04": 2,
+        "1170CX05": 8,
+        "1170CX06": 2
+      },
+      "expected": {
+        "scheduled": 21,
+        "unscheduled": 0,
+        "line_counts": {
+          "1170CX01": 5,
+          "1170CX02": 1,
+          "1170CX03": 3,
+          "1170CX04": 2,
+          "1170CX05": 8,
+          "1170CX06": 2
+        },
+        "cluster_checks": null,
+        "zero_switch_analysis": {
+          "zero_pairs": 4,
+          "cluster_adj": 4,
+          "cluster_same_not_adj": 0,
+          "cluster_diff_line": 0
+        }
+      },
+      "zero_switch_analysis": {
+        "zero_pairs": 4,
+        "cluster_adj": 4,
+        "cluster_same_not_adj": 0,
+        "cluster_diff_line": 0
+      }
+    },
+    {
+      "file": "1500-0729-balance-p1.txt",
+      "status": "OK",
+      "elapsed": 9.12,
+      "total_products": 29,
+      "scheduled": 27,
+      "unscheduled": 2,
+      "overall_utilization": 35.99,
+      "total_score": 124395,
+      "priority_score": 13620,
+      "changeover_score": 1180,
+      "protein_grade_bonus": 20,
+      "particle_size_bonus": 26,
+      "time_window_bonus": 27,
+      "electricity_cost": 210.62,
+      "production_balance_score": -305,
+      "changeover_time_penalty": 60,
+      "weights": {
+        "material_priority": 0,
+        "line_priority": 6,
+        "time_window": 0,
+        "protein_grade": 20,
+        "particle_size": 0,
+        "changeover_time": 100,
+        "production_balance": 25,
+        "electricity_cost": 0
+      },
+      "line_counts": {
+        "1500CX01": 4,
+        "1500CX02": 3,
+        "1500CX03": 2,
+        "1500CX04": 2,
+        "1500CX05": 7,
+        "1500CX06": 8,
+        "1500CX07": 1
+      },
+      "expected": {
+        "scheduled": 27,
+        "unscheduled": 2,
+        "line_counts": {
+          "1500CX01": 4,
+          "1500CX02": 3,
+          "1500CX03": 2,
+          "1500CX04": 2,
+          "1500CX05": 7,
+          "1500CX06": 8,
+          "1500CX07": 1
+        },
+        "cluster_checks": null,
+        "zero_switch_analysis": {
+          "zero_pairs": 30,
+          "cluster_adj": 15,
+          "cluster_same_not_adj": 10,
+          "cluster_diff_line": 5
+        }
+      },
+      "zero_switch_analysis": {
+        "zero_pairs": 30,
+        "cluster_adj": 15,
+        "cluster_same_not_adj": 10,
+        "cluster_diff_line": 5
+      }
+    },
+    {
+      "file": "1500-0729.txt",
+      "status": "OK",
+      "elapsed": 1.05,
+      "total_products": 29,
+      "scheduled": 29,
+      "unscheduled": 0,
+      "overall_utilization": 47.44,
+      "total_score": 150221,
+      "priority_score": 15240,
+      "changeover_score": 1355,
+      "protein_grade_bonus": 22,
+      "particle_size_bonus": 27,
+      "time_window_bonus": 29,
+      "electricity_cost": 343.21,
+      "production_balance_score": -959,
+      "changeover_time_penalty": 60,
+      "weights": {
+        "material_priority": 0,
+        "line_priority": 6,
+        "time_window": 0,
+        "protein_grade": 20,
+        "particle_size": 0,
+        "changeover_time": 100,
+        "production_balance": 1,
+        "electricity_cost": 0
+      },
+      "line_counts": {
+        "1500CX01": 6,
+        "1500CX02": 3,
+        "1500CX03": 2,
+        "1500CX04": 1,
+        "1500CX05": 1,
+        "1500CX06": 15,
+        "1500CX07": 1
+      },
+      "expected": {
+        "scheduled": 29,
+        "unscheduled": 0,
+        "line_counts": {
+          "1500CX01": 6,
+          "1500CX02": 3,
+          "1500CX03": 2,
+          "1500CX04": 1,
+          "1500CX05": 1,
+          "1500CX06": 15,
+          "1500CX07": 1
+        },
+        "cluster_checks": null,
+        "zero_switch_analysis": {
+          "zero_pairs": 30,
+          "cluster_adj": 17,
+          "cluster_same_not_adj": 13,
+          "cluster_diff_line": 0
+        }
+      },
+      "zero_switch_analysis": {
+        "zero_pairs": 30,
+        "cluster_adj": 17,
+        "cluster_same_not_adj": 13,
+        "cluster_diff_line": 0
+      }
+    },
+    {
+      "file": "1500-1.txt",
+      "status": "OK",
+      "elapsed": 2.26,
+      "total_products": 30,
+      "scheduled": 30,
+      "unscheduled": 0,
+      "overall_utilization": 49.39,
+      "total_score": 135462,
+      "priority_score": 15360,
+      "changeover_score": 1205,
+      "protein_grade_bonus": 23,
+      "particle_size_bonus": 29,
+      "time_window_bonus": 30,
+      "electricity_cost": 254.64,
+      "production_balance_score": -858,
+      "changeover_time_penalty": 60,
+      "weights": {
+        "material_priority": 0,
+        "line_priority": 6,
+        "time_window": 0,
+        "protein_grade": 20,
+        "particle_size": 0,
+        "changeover_time": 100,
+        "production_balance": 1,
+        "electricity_cost": 0
+      },
+      "line_counts": {
+        "1500CX01": 5,
+        "1500CX02": 3,
+        "1500CX03": 3,
+        "1500CX04": 3,
+        "1500CX05": 5,
+        "1500CX06": 8,
+        "1500CX07": 3
+      },
+      "expected": {
+        "scheduled": 30,
+        "unscheduled": 0,
+        "line_counts": {
+          "1500CX01": 5,
+          "1500CX02": 3,
+          "1500CX03": 3,
+          "1500CX04": 3,
+          "1500CX05": 5,
+          "1500CX06": 8,
+          "1500CX07": 3
+        },
+        "cluster_checks": null,
+        "zero_switch_analysis": {
+          "zero_pairs": 29,
+          "cluster_adj": 13,
+          "cluster_same_not_adj": 16,
+          "cluster_diff_line": 0
+        }
+      },
+      "zero_switch_analysis": {
+        "zero_pairs": 29,
+        "cluster_adj": 13,
+        "cluster_same_not_adj": 16,
+        "cluster_diff_line": 0
+      }
+    }
+  ]
+}

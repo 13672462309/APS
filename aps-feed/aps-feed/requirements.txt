@@ -1,0 +1,35 @@
+# aps-feed 运行依赖（手工维护，勿用 pip freeze 覆盖）
+#
+# 本文件是**精选的直接/必要传递依赖**，不是环境快照。
+# 新增依赖时手工加一行并说明用途；不要用 `pip freeze` 整包导出——
+# 会把开发环境里的无关包灌进来，且丢失"为什么需要它"的信息。
+# 历史上根目录的 gen-requirement.py 就是干这个的，已删除。
+#
+# Python 3.10 | 安装: pip install -r requirements.txt
+
+aniso8601==9.0.1
+attrs==23.1.0
+blinker==1.7.0
+certifi==2024.8.30
+charset-normalizer==3.3.2
+click==8.1.7
+Flask==2.3.3
+flask-restx==1.2.0
+gunicorn==21.2.0
+idna==3.8
+importlib-resources==6.1.1
+itsdangerous==2.1.2
+Jinja2==3.1.2
+jsonschema==4.17.3
+MarkupSafe==2.1.3
+packaging==23.2
+PyMySQL==1.1.1
+pyrsistent==0.20.0
+ortools>=9.8
+python-dateutil==2.8.2
+pytz==2023.3.post1
+requests==2.32.3
+six==1.16.0
+tzdata==2023.3
+urllib3==2.2.2
+Werkzeug==2.3.8

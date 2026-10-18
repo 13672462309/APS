@@ -1,0 +1,11 @@
+.idea
+logs
+aps-log
+__pycache__
+.vscode
+.pytest_cache
+/data/*
+!/data/v2/
+/data/v2/*
+!/data/v2/1130-3.txt
+credentials.local.json

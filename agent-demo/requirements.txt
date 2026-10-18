@@ -1,0 +1,8 @@
+# Isolated demo environment; does not change the existing APS service environment.
+Flask==3.1.2
+openpyxl==3.1.5
+ortools==9.10.4067
+numpy==1.26.4
+pandas==2.2.3
+protobuf==5.26.1
+PyMySQL==1.1.1

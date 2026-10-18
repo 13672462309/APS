@@ -1,0 +1,25 @@
+# 构建上下文排除清单 —— 防止本地数据/日志/历史被 COPY 进生产镜像。
+# Dockerfile 用 `COPY . /opt/haid`，没有本文件时这些内容会全部进镜像。
+
+# 版本控制与 IDE
+.git
+.gitignore
+.vscode
+.idea
+
+# 运行产物 / 缓存
+__pycache__
+**/__pycache__
+*.py[cod]
+.pytest_cache
+logs
+
+# ⚠ 本地数据与日志：含真实客户排产请求、产品 ID、得分明细。
+# 本地被 .gitignore 排除，但没有本文件时会进生产镜像 —— 这是数据外泄面。
+# 若线上排障需要 data/，请显式构建时挂卷，不要靠镜像内置。
+data
+aps-log
+
+# 文档与测试不是运行时依赖
+docs
+tests

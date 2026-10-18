@@ -1,0 +1,36 @@
+# Local work and generated runtime data
+/.work/
+agent-demo/runs/
+agent-demo/sessions/
+agent-demo/*-preview.png
+agent-demo/*-result.json
+*.log
+*.pid
+
+# Credentials remain on this computer
+.env
+.env.*
+!.env.example
+/aps-feed/aps-feed/credentials.local.json
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Office lock files created while a workbook or document is open
+~$*
+
+# Editor and archive metadata
+.idea/
+.vscode/
+__MACOSX/
+.DS_Store
+Thumbs.db
+Desktop.ini

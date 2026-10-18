@@ -1,0 +1,21 @@
+# Use stable LF for source files on every platform.
+* text=auto eol=lf
+
+# Windows command launchers use CRLF.
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Binary documents and assets must not undergo newline conversion.
+*.xlsx -text
+*.xls -text
+*.docx -text
+*.pdf -text
+*.png -text
+*.jpg -text
+*.jpeg -text
+*.gif -text
+*.ico -text
+*.zip -text
+
+# Preserve the exact bytes used in frozen dataset fingerprints.
+aps-feed/aps-feed/data/v2/1130-3.txt -text
